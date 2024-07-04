@@ -1,0 +1,517 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'zh' Physical Memory: 32625 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/KID/Projects/Unity/TurnBasedBattle
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+1805
+Successfully changed project path to: C:/KID/Projects/Unity/TurnBasedBattle
+C:/KID/Projects/Unity/TurnBasedBattle
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15064] Host "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 934350176 [EditorId] 934350176 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0V47HLA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15064] Host "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 934350176 [EditorId] 934350176 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0V47HLA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/KID/Projects/Unity/TurnBasedBattle/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 with Max-Q Design (ID=0x1f10)
+    Vendor:   NVIDIA
+    VRAM:     8006 MB
+    Driver:   31.0.15.5186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.031685 seconds.
+- Loaded All Assemblies, in  0.772 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 505 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.198 seconds
+Domain Reload Profiling: 1966ms
+	BeginReloadAssembly (234ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (135ms)
+	LoadAllAssembliesAndSetupDomain (319ms)
+		LoadAssemblies (231ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (314ms)
+			TypeCache.Refresh (312ms)
+				TypeCache.ScanAssembly (287ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1198ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1098ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (767ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (216ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.454 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.736 seconds
+Domain Reload Profiling: 1188ms
+	BeginReloadAssembly (274ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (38ms)
+		LoadAssemblies (179ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (29ms)
+				TypeCache.ScanAssembly (13ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (737ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (482ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (72ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (291ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 46 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (49.1 KB). Loaded Objects now: 520.
+Memory consumption went from 56.4 MB to 56.4 MB.
+Total: 7.481700 ms (FindLiveObjects: 0.063600 ms CreateObjectMapping: 0.008000 ms MarkObjects: 7.290800 ms  DeleteObjects: 0.117800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4022.181050 seconds.
+  path: Assets/TurnBasedCombat/Skills/MutiPhysicSkill.cs
+  artifactKey: Guid(f92a2bb14654fd14f93ac91697f24052) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TurnBasedCombat/Skills/MutiPhysicSkill.cs using Guid(f92a2bb14654fd14f93ac91697f24052) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3034896a5983c2568108692e05d5aca7') in 0.262381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/TurnBasedCombat/Editor/SkillChooseWindow.cs
+  artifactKey: Guid(b6018a3419da7ae44b63730095c868f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TurnBasedCombat/Editor/SkillChooseWindow.cs using Guid(b6018a3419da7ae44b63730095c868f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '150b4b17a08c928bf23277d7ee1bd7f1') in 0.020778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Textures/Background/battle1.jpg
+  artifactKey: Guid(7769f6e244090814a939f3d5ace83048) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Background/battle1.jpg using Guid(7769f6e244090814a939f3d5ace83048) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '983efb79fc01628b40e4fe34f7ac845d') in 0.112581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TurnBasedCombat/Example/TurnBasedCombat.unity
+  artifactKey: Guid(2f44be8be2e1d8b4da39f8095bf70a95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TurnBasedCombat/Example/TurnBasedCombat.unity using Guid(2f44be8be2e1d8b4da39f8095bf70a95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3b7d1c74161e0861fb4ed7ed8a12c372') in 0.021214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TurnBasedCombat/Example/BattleHeroHub.cs
+  artifactKey: Guid(3fe787899f2a8df4783e0ed1b62a9948) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TurnBasedCombat/Example/BattleHeroHub.cs using Guid(3fe787899f2a8df4783e0ed1b62a9948) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6a71c78901839ebb9112cd09ae95fb46') in 0.014183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Animation/Skill/RespwanSkill/RespwanSkill.controller
+  artifactKey: Guid(b21994e2ba11e834fbec193cd15ba5fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animation/Skill/RespwanSkill/RespwanSkill.controller using Guid(b21994e2ba11e834fbec193cd15ba5fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bd48f474c7415c44b826cb9bcc5e3335') in 0.019699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Textures/UI/UI5.psd
+  artifactKey: Guid(bf69601e39cd7234d8a07e509e41b419) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/UI/UI5.psd using Guid(bf69601e39cd7234d8a07e509e41b419) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a628d74f51a69ac98db1e94db697b365') in 0.626448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 231
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TurnBasedCombat/Entity/ValueUnit.cs
+  artifactKey: Guid(de74aee2803260e45af3a11c73df61b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TurnBasedCombat/Entity/ValueUnit.cs using Guid(de74aee2803260e45af3a11c73df61b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '76a47cc88cccb47a93f1e1ec944df8dd') in 0.013828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TurnBasedCombat/Entity/Skill.cs
+  artifactKey: Guid(e61725f1ce99a0441b1da26ac92191aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TurnBasedCombat/Entity/Skill.cs using Guid(e61725f1ce99a0441b1da26ac92191aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ddd4e458c710e8e8af0aca64a4599f1a') in 0.015930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Textures/Effect/MagicSkill/magic_skill_02.png
+  artifactKey: Guid(288d4ea6b425e8f40aa48feae58a8226) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Effect/MagicSkill/magic_skill_02.png using Guid(288d4ea6b425e8f40aa48feae58a8226) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0491cb510a42f59070e2610e3df98e38') in 0.043895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Animation/Hero/005/Attack.anim
+  artifactKey: Guid(3cd3354a343fe8849945a426c7473ae6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animation/Hero/005/Attack.anim using Guid(3cd3354a343fe8849945a426c7473ae6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3517e0e656af653bdb7b752d9bf625d5') in 0.022985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TurnBasedCombat/Controller/UnityStaticTool.cs
+  artifactKey: Guid(4c08869128f5a8c4f959fcf5a2e2b302) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TurnBasedCombat/Controller/UnityStaticTool.cs using Guid(4c08869128f5a8c4f959fcf5a2e2b302) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9375d06fd94db5428e0fe94240d11792') in 0.016828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TurnBasedCombat/Entity/HeroProperty.cs
+  artifactKey: Guid(ebe847f63c3e5d040a3f2356aac26b7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TurnBasedCombat/Entity/HeroProperty.cs using Guid(ebe847f63c3e5d040a3f2356aac26b7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a13d14cc17192174551ed1420ebad92f') in 0.020543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Animation/UI/RegisterUI/RegisterUICloseState.anim
+  artifactKey: Guid(8383ec0ffa8593d4782b376b0c61b1a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animation/UI/RegisterUI/RegisterUICloseState.anim using Guid(8383ec0ffa8593d4782b376b0c61b1a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3dbe695a96bc0db304060966f888c411') in 0.020685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TurnBasedCombat/Editor/CreateResourcesBundle.cs
+  artifactKey: Guid(c11d1fa5165858143bc450479a88899b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TurnBasedCombat/Editor/CreateResourcesBundle.cs using Guid(c11d1fa5165858143bc450479a88899b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '07f38ae51c32c1c66f198f448150b71d') in 0.018075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textures/Effect/RespwanSkill/01.png
+  artifactKey: Guid(43004e38a5a21ba4da95219eefa95ae1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Effect/RespwanSkill/01.png using Guid(43004e38a5a21ba4da95219eefa95ae1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '075dd3afbf4ca9d77db9781bcf8bea66') in 0.029424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TurnBasedCombat/UI/Base/BaseBattleHeroUI.cs
+  artifactKey: Guid(c4f7d9ce15f77514191a638d1e0b1661) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TurnBasedCombat/UI/Base/BaseBattleHeroUI.cs using Guid(c4f7d9ce15f77514191a638d1e0b1661) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3e6915c49b5427878f550df95eabe02c') in 0.019166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TurnBasedCombat/Resources/ICO/010.png
+  artifactKey: Guid(057b4117dbca0ee40854a9447d78e097) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TurnBasedCombat/Resources/ICO/010.png using Guid(057b4117dbca0ee40854a9447d78e097) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3a25aaebfbcb68761310c0b793811050') in 0.037555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TurnBasedCombat/Resources/ICO/005.png
+  artifactKey: Guid(12c996de299852e4499c9b1a2220d0ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TurnBasedCombat/Resources/ICO/005.png using Guid(12c996de299852e4499c9b1a2220d0ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c177137890ccb491c28cac320462bf5d') in 0.038288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TurnBasedCombat/Resources/ICO/004.png
+  artifactKey: Guid(edabf7822cac46e4abcfa8ae30881f5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TurnBasedCombat/Resources/ICO/004.png using Guid(edabf7822cac46e4abcfa8ae30881f5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '70bbedd6c6a6fc4440629d91c8d7624d') in 0.034887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TurnBasedCombat/Resources/ICO/009.png
+  artifactKey: Guid(d35d9a6e6089a1a4f9219575f6c8cc5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TurnBasedCombat/Resources/ICO/009.png using Guid(d35d9a6e6089a1a4f9219575f6c8cc5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1cbba82e19cf298d2c54bbf83b3516f2') in 0.026184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TurnBasedCombat/Prefab/Button.prefab
+  artifactKey: Guid(ea31af9221b89f9448ac96b3e66a7581) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TurnBasedCombat/Prefab/Button.prefab using Guid(ea31af9221b89f9448ac96b3e66a7581) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a2f1c4ab392ea40c997e7c53d83d0b01') in 0.030444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Textures/Effect/RespwanSkill/03.png
+  artifactKey: Guid(8ab8b53ff1fb8a64c868e87fb5a71657) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Effect/RespwanSkill/03.png using Guid(8ab8b53ff1fb8a64c868e87fb5a71657) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9575598103ac1a82314cf7ea79c306ba') in 0.032533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StreamingAssets/StreamingAssets.manifest
+  artifactKey: Guid(81049fbab6cd0d540a3855e974f0affb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/StreamingAssets/StreamingAssets.manifest using Guid(81049fbab6cd0d540a3855e974f0affb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '46554ec97a52e09a97c1b815829ceb42') in 0.013877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures/Effect/RespwanSkill/05.png
+  artifactKey: Guid(ade25b20d90c4b54ea91ee4c92dc5af4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Effect/RespwanSkill/05.png using Guid(ade25b20d90c4b54ea91ee4c92dc5af4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b56888fd3e45319f64afbb3a2d4773ee') in 0.036828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Textures/Hero/005.png
+  artifactKey: Guid(421b187a07c6e9d4fbadb2f8e2bba293) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Hero/005.png using Guid(421b187a07c6e9d4fbadb2f8e2bba293) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6cbdc486ae5fa4faa44235db94c40485') in 0.066068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/King.Event/Notification.cs
+  artifactKey: Guid(f227a01c36ea3744fabacd4710a0a118) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/King.Event/Notification.cs using Guid(f227a01c36ea3744fabacd4710a0a118) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '70a0854b35e6b64c38bd8c84f7d2e3ae') in 0.018568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Textures/Effect/RespwanSkill/21.png
+  artifactKey: Guid(ea637b1ad014f654ab2bb71da576e9da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Effect/RespwanSkill/21.png using Guid(ea637b1ad014f654ab2bb71da576e9da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '04e7281e6aef2c5bfb8b0af0283875cb') in 0.032667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Animation/UI/LoginUI/LoginUIOpenState.anim
+  artifactKey: Guid(53f309e8d754e514eb0fe55e9c9654e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animation/UI/LoginUI/LoginUIOpenState.anim using Guid(53f309e8d754e514eb0fe55e9c9654e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '420f388163cba1da92e56f4c0e64aad9') in 0.018316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Textures/Effect/RespwanSkill/07.png
+  artifactKey: Guid(347fe29cc5e8ba34aace80a855813c5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Effect/RespwanSkill/07.png using Guid(347fe29cc5e8ba34aace80a855813c5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cf62dccfdd7128b68f78818df428dba3') in 0.029267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Animation/Hero/005/MagicAttack.anim
+  artifactKey: Guid(0ca239602c499294fb8622963e429823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animation/Hero/005/MagicAttack.anim using Guid(0ca239602c499294fb8622963e429823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3952f04312b2a27e729a1b89bc04d5fe') in 0.019619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TurnBasedCombat/UI/Interface/IBattleHeroUI.cs
+  artifactKey: Guid(044acc122d1e3684499550ecbd293efc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TurnBasedCombat/UI/Interface/IBattleHeroUI.cs using Guid(044acc122d1e3684499550ecbd293efc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8d7403758e932efc89eb3eb6bcbe3551') in 0.015846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Textures/Effect/RespwanSkill/08.png
+  artifactKey: Guid(3b4e3213f952a264185ec2cfce494ec0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Effect/RespwanSkill/08.png using Guid(3b4e3213f952a264185ec2cfce494ec0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd5d77ceeea9a3c26defed6c474db2949') in 0.030552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Textures/UI/UI2.psd
+  artifactKey: Guid(6897122b97f18a44f9f5fd0fe973714c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/UI/UI2.psd using Guid(6897122b97f18a44f9f5fd0fe973714c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b46b787dbb1fd40129b2d50c95edf1cd') in 0.765960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 340
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Animation/UI/RegisterUI/RegisterUIOpenState.anim
+  artifactKey: Guid(b22448ca344ad694986ee8f5350c9040) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animation/UI/RegisterUI/RegisterUIOpenState.anim using Guid(b22448ca344ad694986ee8f5350c9040) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aa6237f3fd195fffc8f18531f3242d2c') in 0.016426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textures/Effect/MagicSkill/magic_skill_01.png
+  artifactKey: Guid(7c92bf0dcb824b946997323202b6189c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Effect/MagicSkill/magic_skill_01.png using Guid(7c92bf0dcb824b946997323202b6189c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd8c7e5adcfb72b381689b3707095eafe') in 0.035209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TurnBasedCombat/Example/TestCombat.cs
+  artifactKey: Guid(87f2d130b61830245824525ee1ec9a97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TurnBasedCombat/Example/TestCombat.cs using Guid(87f2d130b61830245824525ee1ec9a97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f7caeb8c2ad9f6db14087bc2278d9634') in 0.014038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TurnBasedCombat/Controller/TableController.cs
+  artifactKey: Guid(5e312d0437f75c4428c672140548dd25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TurnBasedCombat/Controller/TableController.cs using Guid(5e312d0437f75c4428c672140548dd25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '491a6baabbea386d03acd8a917f8c9c3') in 0.015267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Animation/Skill/RespwanSkill/idle.anim
+  artifactKey: Guid(b11a5435c42452c4daa49643f382f7e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animation/Skill/RespwanSkill/idle.anim using Guid(b11a5435c42452c4daa49643f382f7e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ab2edcc64afbcc57ecc19e47cb1f53ce') in 0.020465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TurnBasedCombat/Resources/ICO/002.png
+  artifactKey: Guid(9a90ad0c308561f4fa3c2db86b34a094) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TurnBasedCombat/Resources/ICO/002.png using Guid(9a90ad0c308561f4fa3c2db86b34a094) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4519b78eb4ab23a137f8d93371ab2643') in 0.031124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TurnBasedCombat/Resources/SkillEffect/MagicSkill/MagicSkill.prefab
+  artifactKey: Guid(a0e2d86702c3ac74fb93b3aeaa42bce0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TurnBasedCombat/Resources/SkillEffect/MagicSkill/MagicSkill.prefab using Guid(a0e2d86702c3ac74fb93b3aeaa42bce0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '92b0f2a7999a70782630fea2b6c6a518') in 0.021101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
